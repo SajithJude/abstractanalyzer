@@ -7,7 +7,7 @@ model_base_url = st.secrets["api_base_url"]
 
 def get_extracted_claims_from_remote_model(full_abstract):
 
-    r = requests.post(model_base_url + "\v1\claim_extraction\predict", 
+    r = requests.post(model_base_url + "/v1/claim_extraction/predict", 
       json={ "data": full_abstract})
     r = r.json()
 
