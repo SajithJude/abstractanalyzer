@@ -3,7 +3,7 @@ import requests
 import numpy as np
 import pandas as pd
 
-model_base_url = st.secrets["api_base_url"] 
+model_base_url = st.secrets["lib\punkt\PY3\english.pickle"] 
 
 def get_extracted_claims_from_remote_model(full_abstract):
 
