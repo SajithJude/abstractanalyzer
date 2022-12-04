@@ -1,0 +1,8 @@
+.DS_Store
+sample_code
+*.pyc
+*.pyo
+data
+.vscode
+.streamlit
+Dockerfile
